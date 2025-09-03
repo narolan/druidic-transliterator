@@ -1,8 +1,31 @@
 *.class
-*.log
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-project/target/**
+# sbt build
+target/
+project/target/
+project/project/
+
+# Scala build tool logs
+.ensime_cache/
+.ensime
+.metals/
+.bloop/
+
+# IDE stuff
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Mac & Linux noise
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
 
