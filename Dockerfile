@@ -1,4 +1,4 @@
-FROM hseeberger/scala-sbt:17.0.9_1.9.9_2.13.14 AS builder
+FROM hseeberger/scala-sbt:17.0.2_1.6.2_3.1.1 AS builder
 WORKDIR /app
 COPY . .
 RUN sbt assembly
